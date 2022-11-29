@@ -207,6 +207,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "Genres";
             this.Text = "Жанри";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Genres_FormClosing);
             this.Load += new System.EventHandler(this.Genres_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);

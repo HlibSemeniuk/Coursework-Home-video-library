@@ -109,6 +109,11 @@ namespace Database_Test
             this.Hide();
             form.ShowDialog();
         }
+
+        private void Genres_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 
 

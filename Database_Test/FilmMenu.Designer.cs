@@ -285,6 +285,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "FilmMenu";
             this.Text = "Фільми";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FilmMenu_FormClosing);
             this.Load += new System.EventHandler(this.FilmMenu_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

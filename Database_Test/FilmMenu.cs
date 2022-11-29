@@ -229,5 +229,10 @@ namespace Database_Test
                 }
             }
         }
+
+        private void FilmMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

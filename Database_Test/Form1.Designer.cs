@@ -86,6 +86,7 @@
             this.Controls.Add(this.button_ActorMenu);
             this.Name = "Form1";
             this.Text = "Домашня відеотека";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.ResumeLayout(false);
 
         }

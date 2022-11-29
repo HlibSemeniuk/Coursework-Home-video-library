@@ -111,5 +111,10 @@ namespace Database_Test
         {
             SearchBy(dataGridView1);
         }
+
+        private void Режисери_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -227,6 +227,7 @@
             this.Controls.Add(this.dataGridView1);
             this.Name = "Режисери";
             this.Text = "Режисери";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Режисери_FormClosing);
             this.Load += new System.EventHandler(this.DirectorsMenucs_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel1.ResumeLayout(false);

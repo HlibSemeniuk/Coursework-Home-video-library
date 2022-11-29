@@ -127,5 +127,10 @@ namespace Database_Test
         {
             SearchBy(dataGridView1);
         }
+
+        private void ActorMenu_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
